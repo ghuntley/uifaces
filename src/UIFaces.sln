@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIFaces", "UIFaces.csproj", "{760221A3-9BE6-4D57-8327-F85836591B86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIFaces", "UIFaces\UIFaces.csproj", "{760221A3-9BE6-4D57-8327-F85836591B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIFaces.Tests", "..\UIFaces.Tests\UIFaces.Tests.csproj", "{E611C212-BC28-4E49-960D-BF2D6220F0F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIFaces.Tests", "UIFaces.Tests\UIFaces.Tests.csproj", "{E611C212-BC28-4E49-960D-BF2D6220F0F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
