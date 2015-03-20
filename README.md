@@ -18,7 +18,7 @@ Installation is done via NuGet:
 
 # Usage
 
-	var client = var client = RestService.For<IUIFaces>("http://uifaces.com/api");
+	var client = RestService.For<IUIFaces>("http://uifaces.com/api");
 	UIFace face = await client.Random();
 
 	<img src="{face.ImageUrl.Normal}"/>
