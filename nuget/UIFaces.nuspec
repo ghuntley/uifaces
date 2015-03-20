@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  For more info on this file format visit http://docs.nuget.org/docs/reference/nuspec-reference.
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>UIFaces</id>
+    <version>$version$</version>
+    <owners>ghuntley</owners>
+    <authors>Geoffrey Huntley</authors>
+    <title>UIFaces</title>
+    <description>This tool was born from the daily toil of finding sample avatars for UI mockups.</description>
+    <summary>This tool was born from the daily toil of finding sample avatars for UI mockups.</summary>
+    <language>en-US</language>
+    <iconUrl>http://uifaces.com//assets/static/images/logo.svg</iconUrl>
+    <projectUrl>https://github.com/ghuntley/uifaces</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>UIFACES AVATAR UI-MOCKUPS HTTP REST API REFIT</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.0.0" />
+      <dependency id="Refit" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\UIFaces\bin\Release\UIFaces.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10" />
+    <file src="..\src\UIFaces\*.cs" target="src" />
+  </files>
+</package>
